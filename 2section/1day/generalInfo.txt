@@ -1,0 +1,1 @@
+- continuar usando o vite como ambiente de desenvolvimento para o React
