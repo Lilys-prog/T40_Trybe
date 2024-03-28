@@ -1,1 +1,4 @@
-- continuar usando o vite como ambiente de desenvolvimento para o React
+- continuar usando o vite como ambiente de desenvolvimento para o React, desde 2002 ele "matou" o create react app.
+npm create vite@latest
+
+- a priori estaremos usando o react em sua forma 'pura', sem frameworks.
