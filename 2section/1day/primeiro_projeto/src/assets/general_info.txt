@@ -1,0 +1,21 @@
+- Qualquer arquivo colocado dentro da pasta 'public' pode ser acessado de qualquer lugar do código somente usando uma '/' na frente.
+
+- esta pasta 'assets' é boa para colocar as imagens.
+
+- <React.StrictMode> pode ser apagado do main porque no começo vai mais atrapalhar do que ajudar.
+
+ReactDOM.createRoot(document.getElementById('root')!).render(  
+    <App />  
+)
+
+vai pegar a única div que existe no html e renderizar tudo aquilo que for colocado no App, que é chamado no main. Inclusive, por usar uma única div é que recebe o nome de SPA (single page application, pq está trabalhando só com um elemento)
+
+- será usado o JSX, que é um JS estendido, que mistura js com html.
+
+- a extensão dos componentes deve ser .tsx. O componente é um pedaço da tela, deve ser o mais dividido possível (a extensão tb funciona .jsx, mas o .tsx é o typescript com o jsx).
+
+- para fazer componentes que são só funções auxiliares, pode-sse usar .ts como extensão.
+
+- O componente principal, que já vem por padrão é o 'App'. Detalhe que TODO componente deve iniciar com letra maiúscula, pra diferenciar de tag e retornar só um elemento (todo mundo dentro da cápsula, que pode ser o fragmento <> e </>)
+
+- README markdown permite umas marcações legais 
