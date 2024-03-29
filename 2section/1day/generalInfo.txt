@@ -2,3 +2,11 @@
 npm create vite@latest
 
 - a priori estaremos usando o react em sua forma 'pura', sem frameworks.
+
+- no package.json excluir todas as dependências com lint no nome, acrescentar o lint da trybe e colocar o script
+"lint": "eslint -c .eslintrc.json . --ext .js,.jsx,.ts,.tsx"
+No arquivo eslintrc colocar
+{
+  "extends" : "@trybe/eslint-config-frontend/typescript"
+}
+ou seja, adicionar o typescript no final
