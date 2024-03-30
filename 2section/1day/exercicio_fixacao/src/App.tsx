@@ -1,8 +1,13 @@
+import Greeting from './components/Greeting';
+import LuckyNumbers from './components/LuckyNumbers';
 import './App.css';
 
 function App() {
   return (
-    <h1>Vite + React</h1>
+    <>
+      <Greeting />
+      <LuckyNumbers />
+    </>
   );
 }
 
