@@ -10,3 +10,9 @@ No arquivo eslintrc colocar
   "extends" : "@trybe/eslint-config-frontend/typescript"
 }
 ou seja, adicionar o typescript no final
+
+settings (json vscode)
+
+"emmet.includeLanguages": {
+"javascript": "javascriptreact"
+},
