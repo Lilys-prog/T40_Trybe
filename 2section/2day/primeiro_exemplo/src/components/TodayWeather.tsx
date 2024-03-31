@@ -1,12 +1,20 @@
-function TodayWeather() {
+type TodayWeatherProps = {
+  day: string;
+  date: string;
+  icon: string;
+  climate: string;
+  temperature: string
+};
+
+function TodayWeather({ day, date, icon, climate, temperature }:TodayWeatherProps) {
   return (
-    <>
-      <h2>Sunday</h2>
-      <p>Mar 31</p>
-      <img src="" alt="" />
-      <h2>Sunny</h2>
-      <p>15-20°C</p>
-    </>
+    <div>
+      <h2>{ day }</h2>
+      <p>{ date }</p>
+      <img src={ icon } alt="" />
+      <h2>{ climate }</h2>
+      <p>{ temperature }</p>
+    </div>
   );
 }
 
