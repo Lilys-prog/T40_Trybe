@@ -4,18 +4,19 @@ type TodayWeatherProps = {
   day: string;
   date: string;
   icon: string;
-  climate: string;
-  temperature: string
+  condition: string;
+  min: number;
+  max: number;
 };
 
-function TodayWeather({ day, date, icon, climate, temperature }:TodayWeatherProps) {
+function TodayWeather({ day, date, icon, condition, min, max }:TodayWeatherProps) {
   return (
     <div id="weather-id">
       <h2>{ day }</h2>
       <p>{ date }</p>
       <img src={ icon } alt="" />
-      <h3>{ climate }</h3>
-      <p>{ temperature }</p>
+      <h3>{ condition }</h3>
+      <p>{ `${min} - ${max}` }</p>
     </div>
   );
 }
