@@ -1,6 +1,6 @@
 import './TodayWeather.css';
 
-type TodayWeatherProps = {
+export type TodayWeatherProps = {
   day: string;
   date: string;
   icon: string;
